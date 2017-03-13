@@ -8,6 +8,13 @@
     <title>kitten-race</title>
 </head>
 <body>
-
+<div class="wrapper">
+    <header></header>
+    <div class="content">
+        <div class="appdisplay"></div>
+        <div class="loginandregisterdisplay"></div>
+    </div>
+    <footer></footer>
+</div>
 </body>
 </html>
