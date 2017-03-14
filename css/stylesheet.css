@@ -65,9 +65,16 @@ h1, h2, h3, h4, h5, h5, p, sub, span, .label
 }
 .loginandregisterdisplay
 {
-    width: 400px;
+    width: 350px;
+    padding: 25px;
 }
 .loginandregisterdisplay h3
 {
     font-size: 2.188em;
+}
+.input
+{
+    background-color: rgba(255, 255, 255, 0.7);
+    border: 0;
+    margin-bottom: 5px;
 }

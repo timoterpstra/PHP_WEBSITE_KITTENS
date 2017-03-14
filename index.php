@@ -17,8 +17,14 @@
             <div class="loginsysteem">
                 <h3>Login</h3>
                 <form action="">
-                    <label class="label" for="">Username Or E-mail</label>
-                    <input type="text">
+                    <div class="row-spaced">
+                        <label class="label" for="usernameoremail">Username Or E-mail: </label>
+                        <input class="input" name="usernameoremail" type="text" id="usernameoremail">
+                    </div>
+                    <div class="row-spaced">
+                        <label class="label" for="password">Password: </label>
+                        <input class="input" name="password" type="text" id="password">
+                    </div>
                 </form>
             </div>
             <div class="registreersysteem">
