@@ -1,0 +1,93 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+h1, h2, h3, h4, h5, h5, p, sub, span, .label, .submit, .button{
+    color: #00FF00;
+    font-weight: bold;
+}
+
+body{
+  background-color: #000;
+}
+
+.bg_color_white{
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+.wrapper{
+  width: 1024px;
+  margin: 0 auto;
+}
+
+a.button{
+  text-decoration: none;
+  background-color: rgba(255, 255, 255, 0.7);
+  padding: 10px 20px;
+}
+
+/* ==========================================================================
+   Hero
+   ========================================================================== */
+.hero{
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+/* ==========================================================================
+   App display
+   ========================================================================== */
+.hero .appdisplay{
+  box-sizing: border-box;
+  width: 60%;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.hero .appdisplay a.button{
+  margin-top: 10px;
+}
+/* ==========================================================================
+   Login/Register
+   ========================================================================== */
+.hero .login_reg_display{
+  box-sizing: border-box;
+  padding: 20px;
+  max-height: 370px;
+  min-width: 350px;
+}
+
+.hero .login_reg_display .from_group{
+  width: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.hero .login_reg_display .from_group .input{
+  background-color: rgba(255, 255, 255, 0.7);
+  border: 0;
+  margin-bottom: 5px;
+}
+.hero .submit{
+  margin-top: 5px;
+  width: 100%;
+  background-color: inherit;
+  height: 30px;
+}
