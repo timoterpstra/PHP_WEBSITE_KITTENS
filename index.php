@@ -16,6 +16,10 @@
         <div class="loginandregisterdisplay bg-color-content">
             <div class="loginsysteem">
                 <h3>Login</h3>
+                <form action="">
+                    <label class="label" for="">Username Or E-mail</label>
+                    <input type="text">
+                </form>
             </div>
             <div class="registreersysteem">
                 <h3>Resgistreer</h3>

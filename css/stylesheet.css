@@ -16,11 +16,15 @@ body
     background-repeat: no-repeat;
     background-position: top;
     background-attachment: fixed;
+    background-size: 100%;
 }
-h1, h2, h3, h4, h5, h5, p, sub, span
+h1, h2, h3, h4, h5, h5, p, sub, span, .label
 {
     margin: 0;
     padding: 0;
+
+    color: #00FF00;
+    font-weight: bold;
 }
 /*====================FONTS====================*/
 /*====================TOOLS====================*/
@@ -62,4 +66,8 @@ h1, h2, h3, h4, h5, h5, p, sub, span
 .loginandregisterdisplay
 {
     width: 400px;
+}
+.loginandregisterdisplay h3
+{
+    font-size: 2.188em;
 }
