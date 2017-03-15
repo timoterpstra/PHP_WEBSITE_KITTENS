@@ -34,10 +34,38 @@
                         <label class="label" for="password">Password: </label>
                         <input class="input" name="password" type="text" id="password">
                     </div>
+                    <input class="input input-button" type="submit" name="login" value="Login">
                 </form>
             </div>
             <div class="registreersysteem">
-                <h3>Resgistreer</h3>
+                <h3>Register</h3>
+                <form action="">
+                    <div class="row-spaced">
+                        <label class="label" for="name">Name: </label>
+                        <input class="input" name="name" type="text" id="name">
+                    </div>
+                    <div class="row-spaced">
+                        <label class="label" for="surname">Surname: </label>
+                        <input class="input" name="surname" type="text" id="surname">
+                    </div>
+                    <div class="row-spaced">
+                        <label class="label" for="username">Username: </label>
+                        <input class="input" name="username" type="text" id="username">
+                    </div>
+                    <div class="row-spaced">
+                        <label class="label" for="email">Username Or E-mail: </label>
+                        <input class="input" name="email" type="text" id="email">
+                    </div>
+                    <div class="row-spaced">
+                        <label class="label" for="password">Password: </label>
+                        <input class="input" name="password" type="text" id="password">
+                    </div>
+                    <div class="row-spaced">
+                        <label class="label" for="retype-password">retype password: </label>
+                        <input class="input" name="retype-password" type="text" id="retype-password">
+                    </div>
+                    <input class="input input-button" type="submit" name="register" value="register">
+                </form>
             </div>
         </div>
     </div>
