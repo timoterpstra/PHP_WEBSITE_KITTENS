@@ -18,13 +18,17 @@ body
     background-attachment: fixed;
     background-size: 100%;
 }
-h1, h2, h3, h4, h5, h5, p, sub, span, .label
+h1, h2, h3, h4, h5, h5, p, sub, span, .label, li
 {
     margin: 0;
     padding: 0;
 
     color: #00FF00;
     font-weight: bold;
+}
+li
+{
+    list-style: none;
 }
 /*====================FONTS====================*/
 /*====================TOOLS====================*/
@@ -61,12 +65,21 @@ h1, h2, h3, h4, h5, h5, p, sub, span, .label
 /*====================CSS-INDEX====================*/
 .appdisplay
 {
-   width: 600px;
+   width: 450px;
+    padding: 25px;
+
+    float: left;
+}
+.appdisplay h3
+{
+    margin: 25px 0 10px 0;
 }
 .loginandregisterdisplay
 {
     width: 350px;
     padding: 25px;
+
+    float: right;
 }
 .loginandregisterdisplay h3
 {

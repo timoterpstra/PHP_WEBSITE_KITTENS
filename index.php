@@ -11,8 +11,17 @@
 <body>
 <div class="wrapper">
     <header class="bg-color-content row-spaced"></header>
-    <div class="content row-spaced">
-        <div class="appdisplay bg-color-content"></div>
+    <div class="content">
+        <div class="appdisplay bg-color-content">
+            <h3>The Game</h3>
+            <p>the game is a kittens race where you can put money on a kitten.</p>
+            <h3>Rules</h3>
+            <li>*1* -- text</li>
+            <li>*2* -- text</li>
+            <li>*3* -- text</li>
+            <h3>How to download</h3>
+            <p>the way to download is very easy. first login and if jou are logind dan you kan press te downlaud butten en alles zal van zelf gaan.</p>
+        </div>
         <div class="loginandregisterdisplay bg-color-content">
             <div class="loginsysteem">
                 <h3>Login</h3>
