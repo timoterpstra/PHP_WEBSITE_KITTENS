@@ -63,6 +63,15 @@ li
     margin: 25px;
 }
 /*====================CSS-INDEX====================*/
+header h1
+{
+    font-size: 4.688em;
+    padding-left: 20px;
+}
+header h1 span
+{
+    text-decoration: underline;
+}
 .appdisplay
 {
    width: 450px;
@@ -73,6 +82,15 @@ li
 .appdisplay h3
 {
     margin: 25px 0 10px 0;
+}
+.download
+{
+    margin: 20px 0;
+    background-color: #00ff00;
+    border-radius: 50px;
+    width: 250px;
+    font-size: 40px;
+    color: rgba(255,255,255,0.7);
 }
 .loginandregisterdisplay
 {
@@ -97,5 +115,5 @@ li
     border: solid 2px #00ff00;
     color: #00ff00;
     font-weight: bold;
-    font-size: 20px;
+    font-size: 1.250em;
 }
