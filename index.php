@@ -55,7 +55,7 @@
             </div>
             <div class="registreersysteem">
                 <h3>Register</h3>
-                <form action="" method="post">
+                <form action="php/login/register.php" method="post">
                     <div class="row-spaced">
                         <label class="label" for="name">Name: </label>
                         <input class="input" name="name" type="text" id="name">
