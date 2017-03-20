@@ -41,7 +41,7 @@
         <div class="loginandregisterdisplay bg-color-content">
             <div class="loginsysteem">
                 <h3>Login</h3>
-                <form action="php/login/login.php" method="set">
+                <form action="php/login/login.php" method="post">
                     <div class="row-spaced">
                         <label class="label" for="usernameoremail">Username Or E-mail: </label>
                         <input class="input" name="usernameoremail" type="text" id="usernameoremail">
@@ -55,7 +55,7 @@
             </div>
             <div class="registreersysteem">
                 <h3>Register</h3>
-                <form action="" method="set">
+                <form action="" method="post">
                     <div class="row-spaced">
                         <label class="label" for="name">Name: </label>
                         <input class="input" name="name" type="text" id="name">
