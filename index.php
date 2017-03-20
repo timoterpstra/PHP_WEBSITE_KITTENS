@@ -8,6 +8,10 @@
     <link rel="stylesheet" href="css/stylesheet.css">
     <?php
     $login = false;
+    if(isset($_POST['loggedin']))
+    {
+        $login = $_POST['loggedin'];
+    }
     ?>
     <title>kitten-race</title>
 </head>
