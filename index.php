@@ -8,10 +8,6 @@
     <link rel="stylesheet" href="css/stylesheet.css">
     <?php
     $login = false;
-    if(isset($_POST['loggedin']))
-    {
-        $login = $_POST['loggedin'];
-    }
     ?>
     <title>kitten-race</title>
 </head>
@@ -73,15 +69,19 @@
                         <input class="input" name="username" type="text" id="username">
                     </div>
                     <div class="row-spaced">
-                        <label class="label" for="email">Username Or E-mail: </label>
-                        <input class="input" name="email" type="text" id="email">
+                        <label class="label" for="email">E-mail: </label>
+                        <input class="input" name="email" type="email" id="email">
+                    </div>
+                    <div class="row-spaced">
+                        <label class="label" for="retype-email">Retype e-mail: </label>
+                        <input class="input" name="retype-email" type="email" id="retype-email">
                     </div>
                     <div class="row-spaced">
                         <label class="label" for="password">Password: </label>
                         <input class="input" name="password" type="text" id="password">
                     </div>
                     <div class="row-spaced">
-                        <label class="label" for="retype-password">retype password: </label>
+                        <label class="label" for="retype-password">Retype password: </label>
                         <input class="input" name="retype-password" type="text" id="retype-password">
                     </div>
                     <input class="input input-button" type="submit" name="register" value="register">
