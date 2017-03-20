@@ -12,7 +12,7 @@ body
     margin: 0;
     padding: 0;
     
-    background-image: url("../img/bg_space.jpg");
+    background-image: url("../img/IMG_0117.JPG");
     background-repeat: no-repeat;
     background-position: top;
     background-attachment: fixed;
@@ -59,7 +59,7 @@ li
 }
 .bg-color-content
 {
-    background-color: rgba(255, 255, 255, 0.3);
+    background-color: rgba(255, 255, 255, 0.15);
     margin: 25px;
 }
 /*====================CSS-INDEX====================*/

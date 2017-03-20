@@ -2,8 +2,8 @@
 include "../db_connect/connect.php";
 $dbc = _Connect_db();
 
-$usernameOrEmail = $_POST['usernameoremail'];
-$password = $_POST['password'];
+$usernameOrEmail = $_SET['usernameoremail'];
+$password = $_SET['password'];
 
 if (($usernameOrEmail != null || $usernameOrEmail != "") || ($password != null || $password != ""))
 {
