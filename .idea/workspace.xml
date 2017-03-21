@@ -30,11 +30,10 @@
       <file leaf-file-name="login.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/php/login/login.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="493">
-              <caret line="29" column="1" lean-forward="false" selection-start-line="29" selection-start-column="1" selection-end-line="29" selection-end-column="1" />
+            <state relative-caret-position="136">
+              <caret line="8" column="1" lean-forward="false" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
               <folding>
-                <marker date="1490100918144" expanded="true" signature="281:458" ph="SELECT (gebr... person" />
-                <marker date="1490100918144" expanded="true" signature="661:794" ph="SELECT * FRO... person" />
+                <marker date="1490101035377" expanded="true" signature="281:414" ph="SELECT * FRO... person" />
               </folding>
             </state>
           </provider>
@@ -302,7 +301,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="24829000" />
+    <option name="totallyTimeSpent" value="24946000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
@@ -768,11 +767,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/php/login/login.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="29" column="1" lean-forward="false" selection-start-line="29" selection-start-column="1" selection-end-line="29" selection-end-column="1" />
+        <state relative-caret-position="136">
+          <caret line="8" column="1" lean-forward="false" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
           <folding>
-            <marker date="1490100918144" expanded="true" signature="281:458" ph="SELECT (gebr... person" />
-            <marker date="1490100918144" expanded="true" signature="661:794" ph="SELECT * FRO... person" />
+            <marker date="1490101035377" expanded="true" signature="281:414" ph="SELECT * FRO... person" />
           </folding>
         </state>
       </provider>
