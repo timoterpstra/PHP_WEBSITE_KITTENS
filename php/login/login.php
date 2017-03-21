@@ -7,9 +7,7 @@ $password = $_POST['password'];
 
 if (($usernameOrEmail != null || $usernameOrEmail != "") || ($password != null || $password != ""))
 {
-<<<<<<< HEAD
         $resuld = mysqli_query($dbc, "SELECT * FROM person WHERE gebruikersnaam = '$usernameOrEmail' AND wachtwoord = '$password' OR email = '$usernameOrEmail' AND wachtwoord = '$password'");
-=======
     $resuld = mysqli_query($dbc, "SELECT (gebruikersnaam, wachtwoord) FROM person WHERE gebruikersnaam = '$usernameOrEmail' AND wachtwoord = '$password' OR email = '$usernameOrEmail' AND wachtwoord = '$password'");
 
     if ($resuld) {
@@ -17,7 +15,6 @@ if (($usernameOrEmail != null || $usernameOrEmail != "") || ($password != null |
         echo "<input type='hidden' name='loggedin' value=true>";
     }
     $resuld = mysqli_query($dbc, "SELECT * FROM person WHERE gebruikersnaam = $usernameOrEmail AND wachtwoord = $password OR email = $usernameOrEmail AND wachtwoord = $password");
->>>>>>> origin/master
     if ($resuld)
     {
          echo "heloooo";

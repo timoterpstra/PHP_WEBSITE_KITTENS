@@ -8,11 +8,7 @@
     <link rel="stylesheet" href="css/stylesheet.css">
 	<?php
     $login = false;
-<<<<<<< HEAD
-    if(isset($_POST['loggedin']))
-=======
     if (isset($_POST['loggedin']))
->>>>>>> origin/master
     {
         $login = $_POST['loggedin'];
     }
