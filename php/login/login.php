@@ -11,10 +11,9 @@ var_dump($password);
 
 if (($usernameOrEmail != null) || ($password != null))
 {
-    $resuld = mysqli_query($dbc, "SELECT * FROM person WHERE gebruikersnaam = '$usernameOrEmail' AND wachtwoord = '$password' OR email = '$usernameOrEmail' AND wachtwoord = '$password'");
+    $resuld = mysqli_query($dbc, "SELECT (gebruikersnaam, wachtwoord) FROM person WHERE gebruikersnaam = '$usernameOrEmail' AND wachtwoord = '$password' OR email = '$usernameOrEmail' AND wachtwoord = '$password'");
     if ($resuld)
     {
-        echo "heloooo";
         echo "<form id='myForm' action='../../index.php' method='post'>";
         echo "<input type='hidden' name='loggedin' value=true>";
         echo "</form>";
@@ -25,6 +24,5 @@ if (($usernameOrEmail != null) || ($password != null))
     else
     {
         echo "nee lukt niet";
-        var_dump($resuld);
     }
 }
