@@ -21,6 +21,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             <state relative-caret-position="969">
               <caret line="57" column="50" lean-forward="true" selection-start-line="57" selection-start-column="50" selection-end-line="57" selection-end-column="50" />
               <folding>
@@ -41,6 +42,12 @@
 >>>>>>> parent of dd8db32... Login Works MySQL
 =======
 >>>>>>> parent of dd8db32... Login Works MySQL
+=======
+            <state relative-caret-position="34">
+              <caret line="10" column="4" lean-forward="true" selection-start-line="10" selection-start-column="4" selection-end-line="13" selection-end-column="5" />
+              <folding>
+                <marker date="1490100821387" expanded="true" signature="1337:1470" ph="..." />
+>>>>>>> origin/master
               </folding>
             </state>
           </provider>
@@ -49,9 +56,10 @@
       <file leaf-file-name="login.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/php/login/login.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="13" column="5" lean-forward="true" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
+            <state relative-caret-position="493">
+              <caret line="29" column="1" lean-forward="false" selection-start-line="29" selection-start-column="1" selection-end-line="29" selection-end-column="1" />
               <folding>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -67,6 +75,10 @@
 =======
                 <marker date="1490012630629" expanded="true" signature="281:414" ph="SELECT * FRO... person" />
 >>>>>>> parent of dd8db32... Login Works MySQL
+=======
+                <marker date="1490100918144" expanded="true" signature="281:458" ph="SELECT (gebr... person" />
+                <marker date="1490100918144" expanded="true" signature="661:794" ph="SELECT * FRO... person" />
+>>>>>>> origin/master
               </folding>
             </state>
           </provider>
@@ -85,7 +97,7 @@
       <file leaf-file-name="register.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/php/login/register.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="604">
+            <state relative-caret-position="697">
               <caret line="41" column="15" lean-forward="false" selection-start-line="41" selection-start-column="15" selection-end-line="41" selection-end-column="15" />
               <folding>
                 <marker date="1490019745290" expanded="true" signature="575:718" ph="SELECT * FRO... person" />
@@ -124,9 +136,9 @@
         <option value="$PROJECT_DIR$/php/db_connect/query/query's" />
         <option value="$PROJECT_DIR$/php/menerger.php" />
         <option value="$PROJECT_DIR$/css/stylesheet.css" />
-        <option value="$PROJECT_DIR$/php/login/login.php" />
         <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/php/login/register.php" />
+        <option value="$PROJECT_DIR$/php/login/login.php" />
       </list>
     </option>
   </component>
@@ -141,9 +153,10 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="-7" />
-    <option name="width" value="1370" />
-    <option name="height" value="735" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1616" />
+    <option name="height" value="876" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -242,7 +255,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="js.eslint.eslintPackage" value="" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../vht" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../vht/VHT-PHP-4" />
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://C:/Users/School/Documents/school/leerjaar_1/Periode_3/projecten/PHP_kitten/PHP_WEBSITE_KITTENS/index.php" />
   </component>
   <component name="RecentsManager">
@@ -330,6 +343,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       <workItem from="1490014223041" duration="2710000" />
 =======
 >>>>>>> parent of dd8db32... Login Works MySQL
@@ -337,10 +351,15 @@
 >>>>>>> parent of dd8db32... Login Works MySQL
 =======
 >>>>>>> parent of dd8db32... Login Works MySQL
+=======
+      <workItem from="1490014223041" duration="4693000" />
+      <workItem from="1490086413497" duration="91000" />
+>>>>>>> origin/master
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -354,12 +373,15 @@
 =======
     <option name="totallyTimeSpent" value="20038000" />
 >>>>>>> parent of dd8db32... Login Works MySQL
+=======
+    <option name="totallyTimeSpent" value="24829000" />
+>>>>>>> origin/master
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="0" width="1370" height="735" extended-state="0" />
-    <editor active="false" />
+    <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3138848" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31375" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -389,19 +411,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-<<<<<<< HEAD
-=======
-    <entry file="file://$PROJECT_DIR$/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-          <folding>
-            <marker date="1490012630308" expanded="true" signature="1253:1386" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
->>>>>>> parent of dd8db32... Login Works MySQL
     <entry file="file://$PROJECT_DIR$/css/stylesheet.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -418,6 +427,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             <marker date="1490018923554" expanded="true" signature="1253:1386" ph="..." />
 =======
             <marker date="1490012630308" expanded="true" signature="1253:1386" ph="..." />
@@ -428,6 +438,9 @@
 =======
             <marker date="1490012630308" expanded="true" signature="1253:1386" ph="..." />
 >>>>>>> parent of dd8db32... Login Works MySQL
+=======
+            <marker date="1490100821387" expanded="true" signature="1337:1470" ph="..." />
+>>>>>>> origin/master
           </folding>
         </state>
       </provider>
@@ -448,6 +461,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             <marker date="1490018923554" expanded="true" signature="1253:1386" ph="..." />
 =======
             <marker date="1490012630308" expanded="true" signature="1253:1386" ph="..." />
@@ -458,6 +472,9 @@
 =======
             <marker date="1490012630308" expanded="true" signature="1253:1386" ph="..." />
 >>>>>>> parent of dd8db32... Login Works MySQL
+=======
+            <marker date="1490100821387" expanded="true" signature="1337:1470" ph="..." />
+>>>>>>> origin/master
           </folding>
         </state>
       </provider>
@@ -478,6 +495,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             <marker date="1490018923554" expanded="true" signature="1253:1386" ph="..." />
 =======
             <marker date="1490012630308" expanded="true" signature="1253:1386" ph="..." />
@@ -488,6 +506,9 @@
 =======
             <marker date="1490012630308" expanded="true" signature="1253:1386" ph="..." />
 >>>>>>> parent of dd8db32... Login Works MySQL
+=======
+            <marker date="1490100821387" expanded="true" signature="1337:1470" ph="..." />
+>>>>>>> origin/master
           </folding>
         </state>
       </provider>
@@ -508,6 +529,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             <marker date="1490018923554" expanded="true" signature="1253:1386" ph="..." />
 =======
             <marker date="1490012630308" expanded="true" signature="1253:1386" ph="..." />
@@ -518,6 +540,9 @@
 =======
             <marker date="1490012630308" expanded="true" signature="1253:1386" ph="..." />
 >>>>>>> parent of dd8db32... Login Works MySQL
+=======
+            <marker date="1490100821387" expanded="true" signature="1337:1470" ph="..." />
+>>>>>>> origin/master
           </folding>
         </state>
       </provider>
@@ -530,6 +555,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             <marker date="1490018923554" expanded="true" signature="1253:1386" ph="..." />
 =======
             <marker date="1490012630308" expanded="true" signature="1253:1386" ph="..." />
@@ -540,6 +566,9 @@
 =======
             <marker date="1490012630308" expanded="true" signature="1253:1386" ph="..." />
 >>>>>>> parent of dd8db32... Login Works MySQL
+=======
+            <marker date="1490100821387" expanded="true" signature="1337:1470" ph="..." />
+>>>>>>> origin/master
           </folding>
         </state>
       </provider>
@@ -568,6 +597,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             <marker date="1490018923554" expanded="true" signature="1253:1386" ph="..." />
 =======
             <marker date="1490012630308" expanded="true" signature="1253:1386" ph="..." />
@@ -578,6 +608,9 @@
 =======
             <marker date="1490012630308" expanded="true" signature="1253:1386" ph="..." />
 >>>>>>> parent of dd8db32... Login Works MySQL
+=======
+            <marker date="1490100821387" expanded="true" signature="1337:1470" ph="..." />
+>>>>>>> origin/master
           </folding>
         </state>
       </provider>
@@ -598,6 +631,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             <marker date="1490018923554" expanded="true" signature="1253:1386" ph="..." />
 =======
             <marker date="1490012630308" expanded="true" signature="1253:1386" ph="..." />
@@ -608,6 +642,9 @@
 =======
             <marker date="1490012630308" expanded="true" signature="1253:1386" ph="..." />
 >>>>>>> parent of dd8db32... Login Works MySQL
+=======
+            <marker date="1490100821387" expanded="true" signature="1337:1470" ph="..." />
+>>>>>>> origin/master
           </folding>
         </state>
       </provider>
@@ -628,6 +665,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             <marker date="1490018923554" expanded="true" signature="1253:1386" ph="..." />
 =======
             <marker date="1490012630308" expanded="true" signature="1253:1386" ph="..." />
@@ -638,6 +676,9 @@
 =======
             <marker date="1490012630308" expanded="true" signature="1253:1386" ph="..." />
 >>>>>>> parent of dd8db32... Login Works MySQL
+=======
+            <marker date="1490100821387" expanded="true" signature="1337:1470" ph="..." />
+>>>>>>> origin/master
           </folding>
         </state>
       </provider>
@@ -658,6 +699,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             <marker date="1490018923554" expanded="true" signature="1253:1386" ph="..." />
 =======
             <marker date="1490012630308" expanded="true" signature="1253:1386" ph="..." />
@@ -668,6 +710,9 @@
 =======
             <marker date="1490012630308" expanded="true" signature="1253:1386" ph="..." />
 >>>>>>> parent of dd8db32... Login Works MySQL
+=======
+            <marker date="1490100821387" expanded="true" signature="1337:1470" ph="..." />
+>>>>>>> origin/master
           </folding>
         </state>
       </provider>
@@ -688,6 +733,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             <marker date="1490018923554" expanded="true" signature="1253:1386" ph="..." />
 =======
             <marker date="1490012630308" expanded="true" signature="1253:1386" ph="..." />
@@ -698,6 +744,9 @@
 =======
             <marker date="1490012630308" expanded="true" signature="1253:1386" ph="..." />
 >>>>>>> parent of dd8db32... Login Works MySQL
+=======
+            <marker date="1490100821387" expanded="true" signature="1337:1470" ph="..." />
+>>>>>>> origin/master
           </folding>
         </state>
       </provider>
@@ -725,6 +774,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             <marker date="1490018923554" expanded="true" signature="1253:1386" ph="..." />
 =======
             <marker date="1490012630308" expanded="true" signature="1253:1386" ph="..." />
@@ -735,6 +785,9 @@
 =======
             <marker date="1490012630308" expanded="true" signature="1253:1386" ph="..." />
 >>>>>>> parent of dd8db32... Login Works MySQL
+=======
+            <marker date="1490100821387" expanded="true" signature="1337:1470" ph="..." />
+>>>>>>> origin/master
           </folding>
         </state>
       </provider>
@@ -763,6 +816,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             <marker date="1490018923554" expanded="true" signature="1253:1386" ph="..." />
 =======
             <marker date="1490012630308" expanded="true" signature="1253:1386" ph="..." />
@@ -773,6 +827,9 @@
 =======
             <marker date="1490012630308" expanded="true" signature="1253:1386" ph="..." />
 >>>>>>> parent of dd8db32... Login Works MySQL
+=======
+            <marker date="1490100821387" expanded="true" signature="1337:1470" ph="..." />
+>>>>>>> origin/master
           </folding>
         </state>
       </provider>
@@ -793,6 +850,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             <marker date="1490018923554" expanded="true" signature="1253:1386" ph="..." />
 =======
             <marker date="1490012630308" expanded="true" signature="1253:1386" ph="..." />
@@ -803,6 +861,9 @@
 =======
             <marker date="1490012630308" expanded="true" signature="1253:1386" ph="..." />
 >>>>>>> parent of dd8db32... Login Works MySQL
+=======
+            <marker date="1490100821387" expanded="true" signature="1337:1470" ph="..." />
+>>>>>>> origin/master
           </folding>
         </state>
       </provider>
@@ -823,6 +884,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             <marker date="1490018923554" expanded="true" signature="1253:1386" ph="..." />
 =======
             <marker date="1490012630308" expanded="true" signature="1253:1386" ph="..." />
@@ -833,6 +895,9 @@
 =======
             <marker date="1490012630308" expanded="true" signature="1253:1386" ph="..." />
 >>>>>>> parent of dd8db32... Login Works MySQL
+=======
+            <marker date="1490100821387" expanded="true" signature="1337:1470" ph="..." />
+>>>>>>> origin/master
           </folding>
         </state>
       </provider>
@@ -853,6 +918,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             <marker date="1490018923554" expanded="true" signature="1253:1386" ph="..." />
 =======
             <marker date="1490012630308" expanded="true" signature="1253:1386" ph="..." />
@@ -863,6 +929,9 @@
 =======
             <marker date="1490012630308" expanded="true" signature="1253:1386" ph="..." />
 >>>>>>> parent of dd8db32... Login Works MySQL
+=======
+            <marker date="1490100821387" expanded="true" signature="1337:1470" ph="..." />
+>>>>>>> origin/master
           </folding>
         </state>
       </provider>
@@ -883,6 +952,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             <marker date="1490018923554" expanded="true" signature="1253:1386" ph="..." />
 =======
             <marker date="1490012630308" expanded="true" signature="1253:1386" ph="..." />
@@ -893,6 +963,9 @@
 =======
             <marker date="1490012630308" expanded="true" signature="1253:1386" ph="..." />
 >>>>>>> parent of dd8db32... Login Works MySQL
+=======
+            <marker date="1490100821387" expanded="true" signature="1337:1470" ph="..." />
+>>>>>>> origin/master
           </folding>
         </state>
       </provider>
@@ -905,6 +978,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             <marker date="1490018923554" expanded="true" signature="1253:1386" ph="..." />
 =======
             <marker date="1490012630308" expanded="true" signature="1253:1386" ph="..." />
@@ -915,6 +989,9 @@
 =======
             <marker date="1490012630308" expanded="true" signature="1253:1386" ph="..." />
 >>>>>>> parent of dd8db32... Login Works MySQL
+=======
+            <marker date="1490100821387" expanded="true" signature="1337:1470" ph="..." />
+>>>>>>> origin/master
           </folding>
         </state>
       </provider>
@@ -943,6 +1020,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             <marker date="1490018923554" expanded="true" signature="1253:1386" ph="..." />
 =======
             <marker date="1490012630308" expanded="true" signature="1253:1386" ph="..." />
@@ -953,6 +1031,9 @@
 =======
             <marker date="1490012630308" expanded="true" signature="1253:1386" ph="..." />
 >>>>>>> parent of dd8db32... Login Works MySQL
+=======
+            <marker date="1490100821387" expanded="true" signature="1337:1470" ph="..." />
+>>>>>>> origin/master
           </folding>
         </state>
       </provider>
@@ -973,6 +1054,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             <marker date="1490018923554" expanded="true" signature="1253:1386" ph="..." />
 =======
             <marker date="1490012630308" expanded="true" signature="1253:1386" ph="..." />
@@ -983,6 +1065,9 @@
 =======
             <marker date="1490012630308" expanded="true" signature="1253:1386" ph="..." />
 >>>>>>> parent of dd8db32... Login Works MySQL
+=======
+            <marker date="1490100821387" expanded="true" signature="1337:1470" ph="..." />
+>>>>>>> origin/master
           </folding>
         </state>
       </provider>
@@ -1003,6 +1088,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             <marker date="1490018923554" expanded="true" signature="1253:1386" ph="..." />
 =======
             <marker date="1490012630308" expanded="true" signature="1253:1386" ph="..." />
@@ -1013,6 +1099,9 @@
 =======
             <marker date="1490012630308" expanded="true" signature="1253:1386" ph="..." />
 >>>>>>> parent of dd8db32... Login Works MySQL
+=======
+            <marker date="1490100821387" expanded="true" signature="1337:1470" ph="..." />
+>>>>>>> origin/master
           </folding>
         </state>
       </provider>
@@ -1033,6 +1122,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             <marker date="1490018923554" expanded="true" signature="1253:1386" ph="..." />
 =======
             <marker date="1490012630308" expanded="true" signature="1253:1386" ph="..." />
@@ -1043,6 +1133,9 @@
 =======
             <marker date="1490012630308" expanded="true" signature="1253:1386" ph="..." />
 >>>>>>> parent of dd8db32... Login Works MySQL
+=======
+            <marker date="1490100821387" expanded="true" signature="1337:1470" ph="..." />
+>>>>>>> origin/master
           </folding>
         </state>
       </provider>
@@ -1058,6 +1151,9 @@
     <entry file="file://$PROJECT_DIR$/css/stylesheet.css">
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> origin/master
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="7" column="17" lean-forward="false" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
@@ -1065,6 +1161,7 @@
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/index.php">
 =======
 >>>>>>> parent of dd8db32... Login Works MySQL
@@ -1085,6 +1182,8 @@
         </state>
       </provider>
     </entry>
+=======
+>>>>>>> origin/master
     <entry file="file://$PROJECT_DIR$/php/db_connect/connect.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
@@ -1096,13 +1195,17 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> origin/master
     <entry file="file://$PROJECT_DIR$/php/login/register.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="604">
+        <state relative-caret-position="697">
           <caret line="41" column="15" lean-forward="false" selection-start-line="41" selection-start-column="15" selection-end-line="41" selection-end-column="15" />
           <folding>
             <marker date="1490019745290" expanded="true" signature="575:718" ph="SELECT * FRO... person" />
             <marker date="1490019745290" expanded="true" signature="789:936" ph="INSERT INTO person... " />
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> parent of dd8db32... Login Works MySQL
@@ -1116,34 +1219,37 @@
 >>>>>>> parent of dd8db32... Login Works MySQL
 =======
 >>>>>>> parent of dd8db32... Login Works MySQL
+=======
+>>>>>>> origin/master
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/php/db_connect/connect.php">
+    <entry file="file://$PROJECT_DIR$/php/login/login.php">
       <provider selected="true" editor-type-id="text-editor">
-<<<<<<< HEAD
-        <state relative-caret-position="969">
-          <caret line="57" column="50" lean-forward="true" selection-start-line="57" selection-start-column="50" selection-end-line="57" selection-end-column="50" />
+        <state relative-caret-position="493">
+          <caret line="29" column="1" lean-forward="false" selection-start-line="29" selection-start-column="1" selection-end-line="29" selection-end-column="1" />
           <folding>
-            <marker date="1490018923554" expanded="true" signature="1253:1386" ph="..." />
-=======
-=======
-        <state relative-caret-position="153">
-          <caret line="9" column="68" lean-forward="false" selection-start-line="9" selection-start-column="68" selection-end-line="9" selection-end-column="68" />
-          <folding />
+            <marker date="1490100918144" expanded="true" signature="281:458" ph="SELECT (gebr... person" />
+            <marker date="1490100918144" expanded="true" signature="661:794" ph="SELECT * FRO... person" />
+          </folding>
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> parent of dd8db32... Login Works MySQL
 =======
 >>>>>>> parent of dd8db32... Login Works MySQL
     <entry file="file://$PROJECT_DIR$/php/login/login.php">
+=======
+    <entry file="file://$PROJECT_DIR$/index.php">
+>>>>>>> origin/master
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="5" lean-forward="true" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
+        <state relative-caret-position="34">
+          <caret line="10" column="4" lean-forward="true" selection-start-line="10" selection-start-column="4" selection-end-line="13" selection-end-column="5" />
           <folding>
+<<<<<<< HEAD
             <marker date="1490012630629" expanded="true" signature="281:414" ph="SELECT * FRO... person" />
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1152,6 +1258,9 @@
 >>>>>>> parent of dd8db32... Login Works MySQL
 =======
 >>>>>>> parent of dd8db32... Login Works MySQL
+=======
+            <marker date="1490100821387" expanded="true" signature="1337:1470" ph="..." />
+>>>>>>> origin/master
           </folding>
         </state>
       </provider>
