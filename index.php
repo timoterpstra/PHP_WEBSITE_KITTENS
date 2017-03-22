@@ -23,14 +23,17 @@
     </header>
     <div class="content">
         <div class="appdisplay bg-color-content">
-            <h3>The Game</h3>
-            <p>the game is a kittens race where you can put money on a kitten.</p>
-            <h3>Rules</h3>
-            <li>*1* -- text</li>
-            <li>*2* -- text</li>
-            <li>*3* -- text</li>
-            <h3>How to download</h3>
-            <p>the way to download is very easy. first login and if jou are logind dan you kan press te downlaud butten en alles zal van zelf gaan.</p>
+
+
+            <h3>The Game:</h3>
+            <p>The game is a gambeling game where you can put gamble on a kitten. If the kitten that you gambled for wins you earn twice ammount of money you betted on the kitten.</p>
+            <h3>Rules:</h3>
+            <li>*1* -- HAVE FUN!</li>
+            <li>*2* -- Minimal bet = 5 maximum bet = 15</li>
+            <li>*3* -- Not more then 1 bets at the time</li>
+            <li>*4* -- The maximum you can win is 1,000,000 otherwise we are broke.</li>
+            <h3>How to download:</h3>
+            <p>The way to download the game is very easy. First login. (If you don't have a account you can register on the right side.) When you are logged in a download button will appear. Click the download buttton and you receive a .zip file extract it and run Kittenrace.exe</p>
             <?php
             if ($login)
             {
