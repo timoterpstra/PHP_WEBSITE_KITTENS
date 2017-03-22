@@ -7,7 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="css/stylesheet.css">
     <?php
-    $login = false;
+    $login = true;
     if (isset($_POST['loggedin']))
     {
         $login = $_POST['loggedin'];
@@ -34,6 +34,12 @@
             <li>*4* -- The maximum you can win is 1,000,000 otherwise we are broke.</li>
             <h3>How to download:</h3>
             <p>The way to download the game is very easy. First login. (If you don't have a account you can register on the right side.) When you are logged in a download button will appear. Click the download buttton and you receive a .zip file extract it and run Kittenrace.exe</p>
+
+            <video width="400" controls>
+                <source src="trailor/Untitled%20Project.mp4" type="video/mp4">
+                Your browser does not support HTML5 video.
+            </video>
+
             <?php
             if ($login)
             {
