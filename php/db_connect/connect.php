@@ -1,7 +1,10 @@
 <?php
+function ConnectToDB()
+{
     $dbUser = "root";
-    $dbPass = "LukaszLolpol10";
-    $dbHost = "84.26.202.94:3306";
+    $dbPass = "";
+    $dbHost = "localhost:3301";
     $dbName = "db_gokkers";
 
-    $dbc = new PDO("mysql:host=$dbHost;dbname=$dbName", $dbUser, $dbPass);
+    return new PDO("mysql:host=$dbHost;dbname=$dbName", $dbUser, $dbPass);
+}

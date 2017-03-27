@@ -1,4 +1,5 @@
 <?php
+include ("../db_connect/connect.php");
 session_start();
 
 /*  userinfo:

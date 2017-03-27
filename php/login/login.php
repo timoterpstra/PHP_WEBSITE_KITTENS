@@ -1,5 +1,6 @@
 <?php
 
+include ("../db_connect/connect.php");
 session_start();
 
 CheckIfAccountExistsAndLogin();
@@ -48,16 +49,4 @@ function CheckIfAccountExistsAndLogin()
         $_SESSION["color"] = "RED";
         header("location: ../../index.php");
     }
-}
-
-
-
-function ConnectToDB()
-{
-    $dbUser = "root";
-    $dbPass = "";
-    $dbHost = "localhost:3301";
-    $dbName = "db_gokkers";
-
-    return new PDO("mysql:host=$dbHost;dbname=$dbName", $dbUser, $dbPass);
 }
