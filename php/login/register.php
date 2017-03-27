@@ -1,8 +1,5 @@
 <?php
-<<<<<<< HEAD
-
-$message = "";
-$color = "";
+session_start();
 
 /*  userinfo:
  * 0 = name
@@ -46,11 +43,9 @@ function CheckRetypers()
 
         if(!filter_var($userinfo[3], FILTER_VALIDATE_EMAIL) || !filter_var($userinfo[4], FILTER_VALIDATE_EMAIL))
         {
-            global  $message;
-            global $color;
-            $message = "This is a incorrect email!";
-            $color = "RED";
-            header("location: ../../index.php?message=" . urlencode($message) . "&color=$color");
+            $_SESSION["message"] = "This is not a valid email!";
+            $_SESSION["color"] = "RED";
+            header("location: ../../index.php");
         }
         elseif($userinfo[3] === $userinfo[4])
         {
@@ -60,21 +55,16 @@ function CheckRetypers()
             }
             else
             {
-
-                global  $message;
-                global $color;
-                $message = "The Passwords you filled in are not the same";
-                $color = "RED";
-                header("location: ../../index.php?message=" . urlencode($message) . "&color=$color");
+                $_SESSION["message"] = "The passwords you've filled in are not the same!";
+                $_SESSION["color"] = "RED";
+                header("location: ../../index.php");
             }
         }
         else
         {
-            global  $message;
-            global $color;
-            $message = "The emails you filled in are not the same!";
-            $color = "RED";
-            header("location: ../../index.php?message=" . urlencode($message) . "&color=$color");
+            $_SESSION["message"] = "One of the emails you filled in is not the same!";
+            $_SESSION["color"] = "RED";
+            header("location: ../../index.php");
         }
     }
 }
@@ -93,19 +83,15 @@ function CheckIfAccountExistsAndCreateAccount()
     if(sizeof($data) == 0)
     {
         $dbc->query($queryCreateAccount);
-        global  $message;
-        global $color;
-        $message = "Account Created";
-        $color = "GREEN";
-        header("location: ../../index.php?message=" . urlencode($message) . "&color=$color");
+        $_SESSION["message"] = "Account Created";
+        $_SESSION["color"] = "GREEN";
+        header("location: ../../index.php");
     }
     else
     {
-        global  $message;
-        global $color;
-        $color = "RED";
-        $message = "Account Exists";
-        header("location: ../../index.php?message=" . urlencode($message) . "&color=$color");
+        $_SESSION["message"] = "Account Exists";
+        $_SESSION["color"] = "RED";
+        header("location: ../../index.php");
     }
 }
 
@@ -118,48 +104,3 @@ function ConnectToDB()
 
     return new PDO("mysql:host=$dbHost;dbname=$dbName", $dbUser, $dbPass);
 }
-=======
-include "../db_connect/connect.php";
-$dbc = _Connect_db();
-
-$name = $_POST['name'];
-$surname = $_POST['surname'];
-$username = $_POST['username'];
-$email = $_POST['email'];
-$retypeEmail= $_POST['retype-email'];
-$password = $_POST['password'];
-$retypePassword = $_POST['retype-password'];
-
-if (($name != null) && ($surname != null) && ($username != null) && ($email != null) && ($retypeEmail != null) && ($password != null) && ($retypePassword != null))
-{
-    if(($email == $retypeEmail) && ($password == $retypePassword))
-    {
-        $userexists = mysqli_query($dbc, "SELECT * FROM person WHERE gebruikersnaam = '$username' AND naam = '$name' AND achternaam = '$surname' AND email = '$email' OR email = '$email'");
-        if(!$userexists)
-        {
-            mysqli_query($dbc, "INSERT INTO person (id, gebruikersnaam, wachtwoord, email, naam, achternaam) VALUES (null, '$username', '$password', '$email', '$name', '$surname')");
-//            echo "<form id='myForm' action='../../index.php' method='post'>";
-//            echo "<input type='hidden' name='accountcreated' value=true>";
-//            echo "</form>";
-//            echo "<script type='text/javascript'>";
-//            echo "document.getElementById('myForm').submit();";
-//            echo "</script>";
-            echo "heey";
-        }
-        else
-        {
-            echo "<form id='myForm' action='../../index.php' method='post'>";
-            echo "<input type='hidden' name='accountexists' value=true>";
-            echo "</form>";
-            echo "<script type='text/javascript'>";
-            echo "document.getElementById('myForm').submit();";
-            echo "</script>";
-        }
-    }
-}
-else
-{
-    echo "nop";
-}
-//header("location: ../../index.php");
->>>>>>> origin/master

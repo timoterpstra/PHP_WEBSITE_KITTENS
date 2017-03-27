@@ -1,24 +1,63 @@
 <?php
-include "../db_connect/connect.php";
-$dbc = _Connect_db();
 
-$usernameOrEmail = $_POST['usernameoremail'];
-$password = $_POST['password'];
+session_start();
 
-if (($usernameOrEmail != null || $usernameOrEmail != "") || ($password != null || $password != ""))
+CheckIfAccountExistsAndLogin();
+
+function CheckIfEverythingIsFilledIn()
 {
-    $resuld = mysqli_query($dbc, "SELECT * FROM person WHERE gebruikersnaam = $usernameOrEmail AND wachtwoord = $password OR email = $usernameOrEmail AND wachtwoord = $password");
-    if ($resuld)
+    if(isset($_POST["usernameoremail"]) && isset($_POST["password"]))
     {
-        echo "<form action='../index.php' method='post'>";
-        echo "<input type='hidden' name='loggedin' value='true'>";
-        echo "</form>";
-        echo "<script type='text/javascript'>";
-        echo "document.getElementById('myForm').submit();";
-        echo "</script>";
+        $userinfo = [
+            $_POST["usernameoremail"],
+            $_POST["password"]
+        ];
+        return $userinfo;
     }
     else
     {
-        echo "nee lukt niet";
+        return 0;
     }
+}
+
+function CheckIfAccountExistsAndLogin()
+{
+    $userinfo = CheckIfEverythingIsFilledIn();
+    $dbc = ConnectToDB();
+    if(!filter_var($userinfo[0], FILTER_VALIDATE_EMAIL))
+    {
+        $queryLogin = "SELECT username, password FROM tbl_users WHERE username = '{$userinfo[0]}' AND password = '{$userinfo[1]}'";
+    }
+    else
+    {
+        $queryLogin = "SELECT email, password FROM tbl_users WHERE email = '{$userinfo[0]}' AND password = '{$userinfo[1]}'";
+    }
+    var_dump($queryLogin);
+    $data = $dbc->query($queryLogin);
+    var_dump($data);
+    if(sizeof($data) > 0)
+    {
+        $_SESSION["loggedin"] = true;
+        $_SESSION["message1"] = "Logged In";
+        $_SESSION["color"] = "GREEN";
+        header("location: ../../index.php");
+    }
+    else
+    {
+        $_SESSION["message1"] = "The username/email or password is incorrect!";
+        $_SESSION["color"] = "RED";
+        header("location: ../../index.php");
+    }
+}
+
+
+
+function ConnectToDB()
+{
+    $dbUser = "root";
+    $dbPass = "";
+    $dbHost = "localhost:3301";
+    $dbName = "db_gokkers";
+
+    return new PDO("mysql:host=$dbHost;dbname=$dbName", $dbUser, $dbPass);
 }

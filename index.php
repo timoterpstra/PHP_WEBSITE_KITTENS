@@ -1,3 +1,7 @@
+<?php
+    session_start();
+?>
+
 <!doctype html>
 <html lang="en">
 <head>
@@ -7,10 +11,10 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="css/stylesheet.css">
     <?php
-    $login = true;
-    if (isset($_POST['loggedin']))
+    $login = false;
+    if (isset($_SESSION["loggedin"]))
     {
-        $login = $_POST['loggedin'];
+        $login = $_SESSION["loggedin"];
     }
     ?>
     <title>kitten-race</title>
@@ -53,6 +57,12 @@
         </div>
         <div class="loginandregisterdisplay bg-color-content">
             <div class="loginsysteem">
+                <?php
+                if(isset($_SESSION["message1"]) && isset($_SESSION["color"]))
+                {
+                    echo "<span style='color:" .  $_SESSION["color"] . "'><u>" . urldecode($_SESSION["message1"]) . "</u></span>";
+                }
+                ?>
                 <h3>Login</h3>
                 <form action="php/login/login.php" method="post">
                     <div class="row-spaced">
@@ -68,17 +78,13 @@
             </div>
             <div class="registreersysteem">
                 <?php
-                    if(isset($_GET["message"]) && isset($_GET["color"]))
+                    if(isset($_SESSION["message"]) && isset($_SESSION["color"]))
                     {
-                        echo "<span style='color:" .  $_GET["color"] . "'><u>" . urldecode($_GET["message"]) . "</u></span>";
+                        echo "<span style='color:" .  $_SESSION["color"] . "'><u>" . urldecode($_SESSION["message"]) . "</u></span>";
                     }
                 ?>
                 <h3>Register</h3>
-<<<<<<< HEAD
                 <form action="php/login/Register.php" method="post">
-=======
-                <form action="php/login/register.php" method="post">
->>>>>>> origin/master
                     <div class="row-spaced">
                         <label class="label" for="name">Name: </label>
                         <input class="input" name="name" type="text" id="name" required>
@@ -93,19 +99,11 @@
                     </div>
                     <div class="row-spaced">
                         <label class="label" for="email">E-mail: </label>
-<<<<<<< HEAD
                         <input class="input" name="email" type="text" id="email" required>
                     </div>
                     <div class="row-spaced">
                         <label class="label" for="retype-email">Retype e-mail: </label>
                         <input class="input" name="retype-email" type="text" id="retype-email" required>
-=======
-                        <input class="input" name="email" type="email" id="email">
-                    </div>
-                    <div class="row-spaced">
-                        <label class="label" for="retype-email">Retype e-mail: </label>
-                        <input class="input" name="retype-email" type="email" id="retype-email">
->>>>>>> origin/master
                     </div>
                     <div class="row-spaced">
                         <label class="label" for="password">Password: </label>
@@ -113,11 +111,7 @@
                     </div>
                     <div class="row-spaced">
                         <label class="label" for="retype-password">Retype password: </label>
-<<<<<<< HEAD
                         <input class="input" name="retype-password" type="text" id="retype-password" required>
-=======
-                        <input class="input" name="retype-password" type="text" id="retype-password">
->>>>>>> origin/master
                     </div>
                     <input class="input input-button" type="submit" name="register" value="register">
                 </form>
@@ -128,3 +122,7 @@
 </div>
 </body>
 </html>
+
+<?php
+    session_destroy();
+?>
