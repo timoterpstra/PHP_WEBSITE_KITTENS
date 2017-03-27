@@ -67,35 +67,57 @@
                 </form>
             </div>
             <div class="registreersysteem">
+                <?php
+                    if(isset($_GET["message"]) && isset($_GET["color"]))
+                    {
+                        echo "<span style='color:" .  $_GET["color"] . "'><u>" . urldecode($_GET["message"]) . "</u></span>";
+                    }
+                ?>
                 <h3>Register</h3>
+<<<<<<< HEAD
+                <form action="php/login/Register.php" method="post">
+=======
                 <form action="php/login/register.php" method="post">
+>>>>>>> origin/master
                     <div class="row-spaced">
                         <label class="label" for="name">Name: </label>
-                        <input class="input" name="name" type="text" id="name">
+                        <input class="input" name="name" type="text" id="name" required>
                     </div>
                     <div class="row-spaced">
                         <label class="label" for="surname">Surname: </label>
-                        <input class="input" name="surname" type="text" id="surname">
+                        <input class="input" name="surname" type="text" id="surname" required>
                     </div>
                     <div class="row-spaced">
                         <label class="label" for="username">Username: </label>
-                        <input class="input" name="username" type="text" id="username">
+                        <input class="input" name="username" type="text" id="username" required>
                     </div>
                     <div class="row-spaced">
                         <label class="label" for="email">E-mail: </label>
+<<<<<<< HEAD
+                        <input class="input" name="email" type="text" id="email" required>
+                    </div>
+                    <div class="row-spaced">
+                        <label class="label" for="retype-email">Retype e-mail: </label>
+                        <input class="input" name="retype-email" type="text" id="retype-email" required>
+=======
                         <input class="input" name="email" type="email" id="email">
                     </div>
                     <div class="row-spaced">
                         <label class="label" for="retype-email">Retype e-mail: </label>
                         <input class="input" name="retype-email" type="email" id="retype-email">
+>>>>>>> origin/master
                     </div>
                     <div class="row-spaced">
                         <label class="label" for="password">Password: </label>
-                        <input class="input" name="password" type="text" id="password">
+                        <input class="input" name="password" type="text" id="password" required>
                     </div>
                     <div class="row-spaced">
                         <label class="label" for="retype-password">Retype password: </label>
+<<<<<<< HEAD
+                        <input class="input" name="retype-password" type="text" id="retype-password" required>
+=======
                         <input class="input" name="retype-password" type="text" id="retype-password">
+>>>>>>> origin/master
                     </div>
                     <input class="input input-button" type="submit" name="register" value="register">
                 </form>
