@@ -52,7 +52,20 @@ function CheckRetypers()
         {
             if($userinfo[5] === $userinfo[6])
             {
-                CheckIfAccountExistsAndCreateAccount();
+				$containsLetter  = preg_match('/[a-zA-Z]/',    $userinfo[5]);
+				$containsDigit   = preg_match('/\d/',          $userinfo[5]);
+				$containsSpecial = preg_match('/[^a-zA-Z\d]/', $userinfo[5]);
+				$containsAll = $containsLetter && $containsDigit && $containsSpecial
+				if($containsAll)
+				{
+					CheckIfAccountExistsAndCreateAccount();
+				}
+				else
+				{
+					$_SESSION["message"] = "The password needs at least 1 uppercase letter and 1 number!";
+					$_SESSION["color"] = "RED";
+					header("location: ../../index.php");
+				}
             }
             else
             {

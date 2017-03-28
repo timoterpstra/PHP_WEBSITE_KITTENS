@@ -107,11 +107,11 @@
                     </div>
                     <div class="row-spaced">
                         <label class="label" for="password">Password: </label>
-                        <input class="input" name="password" type="text" id="password" required>
+                        <input class="input" name="password" type="text" id="password" minlength="7" required>
                     </div>
                     <div class="row-spaced">
                         <label class="label" for="retype-password">Retype password: </label>
-                        <input class="input" name="retype-password" type="text" id="retype-password" required>
+                        <input class="input" name="retype-password" type="text" id="retype-password" minlength="7" required>
                     </div>
                     <input class="input input-button" type="submit" name="register" value="register">
                 </form>
