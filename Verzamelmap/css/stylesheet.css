@@ -1,119 +1,127 @@
-/*==============================STYLESHEET==============================*/
-/*====================MAIN====================*/
-html
-{
-    margin: 0;
-    padding: 0;
-
-    font-size: 16px;
-}
-body
-{
-    margin: 0;
-    padding: 0;
-    
-    background-image: url("../img/IMG_0117.JPG");
-    background-repeat: no-repeat;
-    background-position: top;
-    background-attachment: fixed;
-    background-size: 100%;
-}
-h1, h2, h3, h4, h5, h5, p, sub, span, .label, li
-{
-    margin: 0;
-    padding: 0;
-
-    color: #00FF00;
-    font-weight: bold;
-}
-li
-{
-    list-style: none;
-}
-/*====================FONTS====================*/
-/*====================TOOLS====================*/
-.wrapper
-{
-    width: 1024px;
-    margin: 0 auto;
-}
-.row-spaced
-{
-    display: flex;
-    justify-content: space-between;
-}
-.row-center
-{
-    display: flex;
-    justify-content: center;
-}
-.row-space-around
-{
-    display: flex;
-    justify-content: space-around;
-}
-.column-center
-{
-    display: flex;
-    align-items: center;
-}
-.bg-color-content
-{
-    background-color: rgba(255, 255, 255, 0.15);
-    margin: 25px;
-}
-/*====================CSS-INDEX====================*/
-header h1
-{
-    font-size: 4.688em;
-    padding-left: 20px;
-}
-header h1 span
-{
-    text-decoration: underline;
-}
-.appdisplay
-{
-   width: 450px;
-    padding: 25px;
-
-    float: left;
-}
-.appdisplay h3
-{
-    margin: 25px 0 10px 0;
-}
-.download
-{
-    margin: 20px 0;
-    background-color: #00ff00;
-    border-radius: 50px;
-    width: 250px;
-    font-size: 40px;
-    color: rgba(255,255,255,0.7);
-}
-.loginandregisterdisplay
-{
-    width: 350px;
-    padding: 25px;
-
-    float: right;
-}
-.loginandregisterdisplay h3
-{
-    font-size: 2.188em;
-}
-.input
-{
-    background-color: rgba(255, 255, 255, 0.3);
-    border: 0;
-    margin-bottom: 5px;
-}
-.input-button
-{
-    width: 100%;
-    border: solid 2px #00ff00;
-    color: #00ff00;
-    font-weight: bold;
-    font-size: 1.250em;
-}
+/*==============================STYLESHEET==============================*/
+/*====================MAIN====================*/
+html
+{
+    margin: 0;
+    padding: 0;
+
+    font-size: 16px;
+}
+body
+{
+    margin: 0;
+    padding: 0;
+    
+    background-image: url("../img/IMG_0117.JPG");
+    background-repeat: no-repeat;
+    background-position: top;
+    background-attachment: fixed;
+    background-size: 100%;
+}
+h1, h2, h3, h4, h5, h5, p, sub, span, .label, li
+{
+    margin: 0;
+    padding: 0;
+
+    color: #00FF00;
+    font-weight: bold;
+}
+li
+{
+    list-style: none;
+}
+a
+{
+visibility: hidden;
+}
+/*====================FONTS====================*/
+/*====================TOOLS====================*/
+.wrapper
+{
+    width: 1024px;
+    margin: 0 auto;
+}
+.row-spaced
+{
+    display: flex;
+    justify-content: space-between;
+}
+.row-center
+{
+    display: flex;
+    justify-content: center;
+}
+.row-space-around
+{
+    display: flex;
+    justify-content: space-around;
+}
+.column-center
+{
+    display: flex;
+    align-items: center;
+}
+.bg-color-content
+{
+    background-color: rgba(255, 255, 255, 0.15);
+    margin: 25px;
+}
+/*====================CSS-INDEX====================*/
+header h1
+{
+    font-size: 4.688em;
+    padding-left: 20px;
+}
+header h1 span
+{
+    text-decoration: underline;
+}
+.appdisplay
+{
+   width: 450px;
+    padding: 25px;
+
+    float: left;
+}
+.appdisplay h3
+{
+    margin: 25px 0 10px 0;
+}
+.download
+{
+    margin: 20px 0;
+    background-color: #00ff00;
+    border-radius: 50px;
+    width: 250px;
+    font-size: 40px;
+    color: rgba(255,255,255,0.7);
+}
+.loginandregisterdisplay
+{
+    width: 350px;
+    padding: 25px;
+
+    float: right;
+}
+.loginandregisterdisplay h3
+{
+    font-size: 2.188em;
+}
+.input
+{
+    background-color: rgba(255, 255, 255, 0.3);
+    border: 0;
+    margin-bottom: 5px;
+}
+.input-button
+{
+    width: 100%;
+    border: solid 2px #00ff00;
+    color: #00ff00;
+    font-weight: bold;
+    font-size: 1.250em;
+}
+.adownloud
+{
+visibility: visible;
+}

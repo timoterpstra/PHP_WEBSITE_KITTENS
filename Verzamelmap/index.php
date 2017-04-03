@@ -49,7 +49,7 @@
             {
                 echo "
                     <div class=\"row-center\">
-                    <a href=\"php/download/test.zip\"><h2 class=\"download row-center\">Download</h2></a>
+                    <a class=\"adownloud\" href=\"php/download/test.zip\"><h2 class=\"download row-center\">Download</h2></a>
                     </div>
                 ";
             }
@@ -71,7 +71,7 @@
                     </div>
                     <div class="row-spaced">
                         <label class="label" for="password">Password: </label>
-                        <input class="input" name="password" type="text" id="password">
+                        <input class="input" name="password" type="password" id="password">
                     </div>
                     <input class="input input-button" type="submit" name="login" value="Login">
                 </form>
@@ -107,11 +107,11 @@
                     </div>
                     <div class="row-spaced">
                         <label class="label" for="password">Password: </label>
-                        <input class="input" name="password" type="text" id="password" required>
+                        <input class="input" name="password" type="password" id="password" required>
                     </div>
                     <div class="row-spaced">
                         <label class="label" for="retype-password">Retype password: </label>
-                        <input class="input" name="retype-password" type="text" id="retype-password" required>
+                        <input class="input" name="retype-password" type="password" id="retype-password" required>
                     </div>
                     <input class="input input-button" type="submit" name="register" value="register">
                 </form>
@@ -122,7 +122,7 @@
 </div>
 </body>
 </html>
-
 <?php
-    session_destroy();
+    $_SESSION["message1"] = null;
+    $_SESSION["message"] = null;
 ?>

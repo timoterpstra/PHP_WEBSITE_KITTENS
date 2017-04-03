@@ -31,7 +31,7 @@ function CheckIfAccountExistsAndLogin()
     }
     else
     {
-        $queryLogin = "SELECT email, password FROM tbl_users WHERE email = '{$userinfo[0]}' AND password   = '{$userinfo[1]}'";
+        $queryLogin = "SELECT email, password FROM tbl_users WHERE email = '{$userinfo[0]}' AND password   = '{password_hash($userinfo[1], PASSWORD_DEFAULT)}'";
     }
     $data = $dbc->query($queryLogin)->fetchAll(PDO::FETCH_ASSOC);
     if(sizeof($data) > 0)

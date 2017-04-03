@@ -1,11 +1,14 @@
 <?php
 include ("../db_connect/connect.php");
-session_start();
 if ($_SERVER['REQUEST_METHOD'] == 'GET')
 {
+if(session_status() == PHP_SESSION_NONE || session_id() == ''){
+session_start();
+}
+
         $dbc = ConnectToDB();
         $userinfo = $_SESSION["userinfo"];
-        $queryCreateAccount = "INSERT INTO tbl_users (`name`, surname, username, email, password) VALUES                  ('{$userinfo[0]}', '{$userinfo[1]}', '{$userinfo[2]}', '{$userinfo[3]}', '{$userinfo[5]}')";
+        $queryCreateAccount = "INSERT INTO tbl_users (`name`, surname, username, email, password) VALUES                  ('{$userinfo[0]}', '{$userinfo[1]}', '{$userinfo[2]}', '{$userinfo[3]}', '{password_hash($userinfo[5], PASSWORD_DEFAULT)}')";
         $dbc->query($queryCreateAccount);
         $_SESSION["message"] = "Account Created";
         $_SESSION["color"] = "GREEN";
@@ -13,6 +16,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'GET')
 }
 else if ($_SERVER['REQUEST_METHOD'] == 'POST')
 {
+session_start();
 /*  userinfo:
  * 0 = name
  * 1 = surname
@@ -63,7 +67,20 @@ function CheckRetypers()
         {
             if($userinfo[5] === $userinfo[6])
             {
-                CheckIfAccountExistsAndCreateAccount();
+                $containsLetter  = preg_match('/[a-zA-Z]/',    $userinfo[5]);
+		$containsDigit   = preg_match('/\d/',          $userinfo[5]);
+		$containsSpecial = preg_match('/[^a-zA-Z\d]/', $userinfo[5]);
+		$containsAll = $containsLetter && $containsDigit && $containsSpecial;
+		if($containsAll)
+		{
+			CheckIfAccountExistsAndCreateAccount();
+		}
+		else
+		{
+			$_SESSION["message"] = "The password needs at least 1 uppercase letter and 1 number!";
+			$_SESSION["color"] = "RED";
+			header("location: ../../index.php");
+		}
             }
             else
             {
@@ -91,13 +108,15 @@ function CheckIfAccountExistsAndCreateAccount()
     if(sizeof($data) == 0)
     {
         $onderwerp = "test mail";
-        $bericht = "LINK TO ACTIVE http://tts8.net16.net/php/login/register.php";
+        $bericht = "LINK TO ACTIVE http://tts8.net16.net/entrance.php";
         $headers = 'From: kittens@space.com' . "\r\n" .
         'Reply-To: kittens@space.com' . "\r\n" .
         'X-Mailer: PHP/' . phpversion();
 
         mail($userinfo[3], $onderwerp, $bericht, $headers);
         $_SESSION["userinfo"] = $userinfo;
+        $_SESSION["message"] = "You have received a verification email on the mail you provided!";
+        $_SESSION["color"] = "GREEN";
         header("location: ../../index.php");
     }
     else
